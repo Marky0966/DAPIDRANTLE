@@ -1,4 +1,4 @@
-* {
+* { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* HEADER */
 header {
   background: #000;
   padding: 15px 0 10px;
@@ -47,23 +46,24 @@ nav ul li a.active {
   color: #000;
 }
 
-/* CONTENT AREA */
 .content, .about-section, .cart, .checkout, .contact-form {
   padding: 60px 20px;
   max-width: 1100px;
   margin: auto;
   text-align: center;
   background: #141414;
-  border: 4px solid #d4af37; /* default border */
+  border: 4px solid #d4af37; /* default */
   border-radius: 10px;
 }
 
-/* Border styles per page */
-body.page1 .content,
-body.page1 .about-section,
-body.page1 .cart,
-body.page1 .checkout,
-body.page1 .contact-form {
+/* =====================
+   PAGE BORDER STYLES
+   ===================== */
+body.index .content,
+body.index .about-section,
+body.index .cart,
+body.index .checkout,
+body.index .contact-form {
   border-style: solid;
 }
 
@@ -115,16 +115,28 @@ body.page7 .contact-form {
   border-style: inset;
 }
 
-/* HEADINGS */
-h1, h2, h3 {
-  font-family: 'Georgia', serif;
-  color: #d4af37;
-  margin-bottom: 20px;
+body.page8 .content,
+body.page8 .about-section,
+body.page8 .cart,
+body.page8 .checkout,
+body.page8 .contact-form {
+  border-style: outset;
 }
 
-p {
-  margin-bottom: 15px;
-  color: #ccc;
+body.page9 .content,
+body.page9 .about-section,
+body.page9 .cart,
+body.page9 .checkout,
+body.page9 .contact-form {
+  border-style: none;
+}
+
+body.page10 .content,
+body.page10 .about-section,
+body.page10 .cart,
+body.page10 .checkout,
+body.page10 .contact-form {
+  border-style: hidden;
 }
 
 /* PRODUCTS */
@@ -187,7 +199,7 @@ p {
   color: #fff;
 }
 
-/* CART & CHECKOUT */
+/* CART + TABLES */
 .cart table, .checkout table {
   width: 100%;
   border-collapse: collapse;
@@ -205,6 +217,7 @@ p {
   color: #d4af37;
 }
 
+/* FORMS */
 .checkout form,
 .contact-form form {
   display: flex;
@@ -240,7 +253,6 @@ p {
   color: #fff;
 }
 
-/* CONTACT FORM */
 .contact-form {
   max-width: 600px;
   margin: 60px auto;
