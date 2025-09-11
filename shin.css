@@ -52,91 +52,38 @@ nav ul li a.active {
   margin: auto;
   text-align: center;
   background: #141414;
-  border: 4px solid #d4af37; /* default */
+  border: 4px solid #d4af37;
   border-radius: 10px;
 }
 
 /* =====================
    PAGE BORDER STYLES
    ===================== */
-body.index .content,
-body.index .about-section,
-body.index .cart,
-body.index .checkout,
-body.index .contact-form {
-  border-style: solid;
+body.page1 .content,
+body.page1 .about-section {
+  border-style: solid;   /* Page 1 – Home */
 }
 
 body.page2 .content,
-body.page2 .about-section,
-body.page2 .cart,
-body.page2 .checkout,
-body.page2 .contact-form {
-  border-style: dashed;
+body.page2 .about-section {
+  border-style: dashed;  /* Page 2 – About */
 }
 
-body.page3 .content,
-body.page3 .about-section,
-body.page3 .cart,
-body.page3 .checkout,
-body.page3 .contact-form {
-  border-style: dotted;
+body.page3 .products,
+body.page3 .content {
+  border-style: dotted;  /* Page 3 – Shop */
 }
 
-body.page4 .content,
-body.page4 .about-section,
-body.page4 .cart,
-body.page4 .checkout,
-body.page4 .contact-form {
-  border-style: double;
+body.page4 .cart {
+  border-style: double;  /* Page 4 – Cart */
 }
 
-body.page5 .content,
-body.page5 .about-section,
-body.page5 .cart,
-body.page5 .checkout,
-body.page5 .contact-form {
-  border-style: groove;
+body.page5 .checkout {
+  border-style: groove;  /* Page 5 – Checkout */
 }
 
-body.page6 .content,
-body.page6 .about-section,
-body.page6 .cart,
-body.page6 .checkout,
 body.page6 .contact-form {
-  border-style: ridge;
-}
-
-body.page7 .content,
-body.page7 .about-section,
-body.page7 .cart,
-body.page7 .checkout,
-body.page7 .contact-form {
-  border-style: inset;
-}
-
-body.page8 .content,
-body.page8 .about-section,
-body.page8 .cart,
-body.page8 .checkout,
-body.page8 .contact-form {
-  border-style: outset;
-}
-
-body.page9 .content,
-body.page9 .about-section,
-body.page9 .cart,
-body.page9 .checkout,
-body.page9 .contact-form {
-  border-style: none;
-}
-
-body.page10 .content,
-body.page10 .about-section,
-body.page10 .cart,
-body.page10 .checkout,
-body.page10 .contact-form {
-  border-style: hidden;
+  border-style: ridge;   /* Page 6 – Contact */
 }
 
 /* PRODUCTS */
