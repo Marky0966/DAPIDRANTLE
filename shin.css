@@ -59,8 +59,8 @@ nav ul li a.active {
 /* =====================
    PAGE BORDER STYLES
    ===================== */
-body.page1 .content,
-body.page1 .about-section {
+body.index .content,
+body.index .about-section {
   border-style: solid;   /* Page 1 – Home */
 }
 
@@ -224,3 +224,4 @@ footer {
   color: #888;
   border-top: 2px solid #d4af37;
 }
+
