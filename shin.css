@@ -23,7 +23,6 @@ header {
   margin-bottom: 10px;
 }
 
-
 nav ul {
   list-style: none;
   display: flex;
@@ -47,11 +46,20 @@ nav ul li a.active {
   color: #000;
 }
 
-.content, .about-section, .cart, .checkout, .contact-form {
+.content, 
+.about-section, 
+.cart, 
+.checkout, 
+.contact-form, 
+.products {
   padding: 60px 20px;
   max-width: 1100px;
-  margin: auto;
+  margin: 40px auto;
   text-align: center;
+  background: #141414;
+  border: 2px solid #d4af37;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
 }
 
 h1, h2, h3 {
@@ -65,19 +73,17 @@ p {
   color: #ccc;
 }
 
-
+/* PRODUCTS GRID */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 25px;
-  padding: 60px 20px;
   max-width: 1200px;
-  margin: auto;
 }
 
 .product-card {
   background: #141414;
-  border: 1px solid #2a2a2a;
+  border: 2px solid #d4af37;
   border-radius: 15px;
   text-align: center;
   padding: 20px;
@@ -94,7 +100,6 @@ p {
   border-radius: 12px;
   margin-bottom: 15px;
 }
-
 
 .btn {
   display: inline-block;
@@ -177,16 +182,6 @@ p {
   color: #fff;
 }
 
-.contact-form {
-  max-width: 600px;
-  margin: 60px auto;
-  background: #141414;
-  padding: 35px;
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  text-align: left;
-}
-
 .contact-form label {
   color: #d4af37;
   font-weight: bold;
@@ -200,5 +195,3 @@ footer {
   color: #888;
   border-top: 2px solid #d4af37;
 }
-
-
