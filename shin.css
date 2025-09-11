@@ -1,3 +1,4 @@
+
 * { 
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
   color: #f1f1f1;
   line-height: 1.6;
 }
+
 
 header {
   background: #000;
@@ -46,47 +48,26 @@ nav ul li a.active {
   color: #000;
 }
 
-.content, .about-section, .cart, .checkout, .contact-form {
+
+.content, .about-section, .products, .cart, .checkout, .contact-form {
   padding: 60px 20px;
   max-width: 1100px;
-  margin: auto;
+  margin: 40px auto;
   text-align: center;
   background: #141414;
   border: 4px solid #d4af37;
   border-radius: 10px;
 }
 
-/* =====================
-   PAGE BORDER STYLES
-   ===================== */
-body.index .content,
-body.index .about-section {
-  border-style: solid;   /* Page 1 – Home */
-}
 
-body.page2 .content,
-body.page2 .about-section {
-  border-style: dashed;  /* Page 2 – About */
-}
+body.page1 .content { border-style: solid; }    
+body.page2 .about-section { border-style: dashed; }  
+body.page3 .products { border-style: dotted; }  
+body.page4 .cart { border-style: double; }   
+body.page5 .checkout { border-style: groove; }  
+body.page6 .contact-form { border-style: ridge; } 
 
-body.page3 .products,
-body.page3 .content {
-  border-style: dotted;  /* Page 3 – Shop */
-}
 
-body.page4 .cart {
-  border-style: double;  /* Page 4 – Cart */
-}
-
-body.page5 .checkout {
-  border-style: groove;  /* Page 5 – Checkout */
-}
-
-body.page6 .contact-form {
-  border-style: ridge;   /* Page 6 – Contact */
-}
-
-/* PRODUCTS */
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -116,7 +97,7 @@ body.page6 .contact-form {
   margin-bottom: 15px;
 }
 
-/* BUTTONS */
+
 .btn {
   display: inline-block;
   padding: 12px 20px;
@@ -146,7 +127,7 @@ body.page6 .contact-form {
   color: #fff;
 }
 
-/* CART + TABLES */
+
 .cart table, .checkout table {
   width: 100%;
   border-collapse: collapse;
@@ -164,7 +145,7 @@ body.page6 .contact-form {
   color: #d4af37;
 }
 
-/* FORMS */
+
 .checkout form,
 .contact-form form {
   display: flex;
@@ -200,22 +181,12 @@ body.page6 .contact-form {
   color: #fff;
 }
 
-.contact-form {
-  max-width: 600px;
-  margin: 60px auto;
-  background: #141414;
-  padding: 35px;
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0,0,0,0.6);
-  text-align: left;
-}
-
 .contact-form label {
   color: #d4af37;
   font-weight: bold;
 }
 
-/* FOOTER */
+
 footer {
   background: #000;
   text-align: center;
@@ -224,4 +195,3 @@ footer {
   color: #888;
   border-top: 2px solid #d4af37;
 }
-
