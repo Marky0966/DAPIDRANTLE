@@ -84,7 +84,9 @@ body.page6 .contact-form { border-style: ridge; }
   padding: 1.25em;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
-  outline: thick dotted rgb(213,158,53,0,3);
+
+ 
+  outline: 3px dotted #d4af37;
   outline-offset: 10px;
 }
 
@@ -193,7 +195,3 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
-
-
-
-
