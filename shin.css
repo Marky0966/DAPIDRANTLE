@@ -62,7 +62,7 @@ nav ul li a.active {
 
 body.page1 .content { border-style: solid; }    
 body.page2 .about-section { border-style: dashed; }  
-body.page3 .products { border-style: dotted; }  
+body.page3 .products { border-style: mix; }  
 body.page4 .cart { border-style: double; }   
 body.page5 .checkout { border-style: groove; }  
 body.page6 .contact-form { border-style: ridge; } 
@@ -195,3 +195,4 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
+
