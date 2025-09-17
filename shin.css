@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 16px; /* Base size: 1em = 16px */
+  font-size: 16px;
 }
 
 body {
@@ -23,7 +23,7 @@ header {
 }
 
 .logo {
-  height: 5.625em; /* 90px */
+  height: 5.625em;
   margin-bottom: 0.625em;
 }
 
@@ -31,7 +31,7 @@ nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 1.875em; /* 30px */
+  gap: 1.875em; 
 }
 
 nav ul li a {
@@ -52,7 +52,7 @@ nav ul li a.active {
 
 .content, .about-section, .products, .cart, .checkout, .contact-form {
   padding: 3.75em 1.25em;
-  max-width: 68.75em; /* 1100px */
+  max-width: 68.75em; 
   margin: 2.5em auto;
   text-align: center;
   background: #141414;
@@ -69,10 +69,10 @@ body.page6 .contact-form { border-style: ridge; }
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14.375em, 1fr)); /* 230px */
+  grid-template-columns: repeat(auto-fit, minmax(14.375em, 1fr)); 
   gap: 1.56em;
   padding: 3.75em 1.25em;
-  max-width: 75em; /* 1200px */
+  max-width: 75em;
   margin: auto;
 }
 
@@ -193,6 +193,7 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
+
 
 
 
