@@ -74,6 +74,7 @@ body.page6 .contact-form { border-style: ridge; }
   padding: 3.75em 1.25em;
   max-width: 75em; /* 1200px */
   margin: auto;
+  outline: thick dotted rgb(213,158,53,0,3);
 }
 
 .product-card {
@@ -190,3 +191,4 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
+
