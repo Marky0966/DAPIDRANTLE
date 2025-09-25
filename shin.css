@@ -15,23 +15,41 @@ body {
   line-height: 1.6;
 }
 
+
 header {
   background: #000;
   padding: 1em 0 0.6em;
   text-align: center;
   border-bottom: 0.125em solid #d4af37;
+
+ 
+  position: sticky;   /* laging nakikita kahit scroll */
+  top: 0;
+  z-index: 1000;
 }
 
 .logo {
   height: 5.625em;
   margin-bottom: 0.625em;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* center logo */
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: center; /* nasa gitna ang menu */
+  align-items: center;
 }
 
 nav ul {
   list-style: none;
   display: flex;
+  gap: 1.875em;
   justify-content: center;
-  gap: 1.875em; 
+  align-items: center;
 }
 
 nav ul li a {
@@ -42,6 +60,7 @@ nav ul li a {
   padding: 0.5em 1em;
   border-radius: 0.375em;
   transition: 0.3s ease;
+  position: relative;
 }
 
 nav ul li a:hover,
@@ -49,6 +68,7 @@ nav ul li a.active {
   background: #d4af37;
   color: #000;
 }
+
 
 .content, .about-section, .products, .cart, .checkout, .contact-form {
   padding: 3.75em 1.25em;
@@ -66,6 +86,7 @@ body.page3 .products { border-style: inset; }
 body.page4 .cart { border-style: outset; }   
 body.page5 .checkout { border-style: double; }  
 body.page6 .contact-form { border-style: ridge; } 
+
 
 .products {
   display: grid;
@@ -85,7 +106,7 @@ body.page6 .contact-form { border-style: ridge; }
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
 
- 
+  /* outline dotted */
   outline: 3px dotted #d4af37;
   outline-offset: 10px;
 }
@@ -101,6 +122,7 @@ body.page6 .contact-form { border-style: ridge; }
   margin-bottom: 0.9375em;
 }
 
+/* ===== BUTTONS ===== */
 .btn {
   display: inline-block;
   padding: 0.75em 1.25em;
@@ -130,6 +152,7 @@ body.page6 .contact-form { border-style: ridge; }
   color: #fff;
 }
 
+
 .cart table, .checkout table {
   width: 100%;
   border-collapse: collapse;
@@ -146,6 +169,7 @@ body.page6 .contact-form { border-style: ridge; }
   background: #1c1c1c;
   color: #d4af37;
 }
+
 
 .checkout form,
 .contact-form form {
@@ -187,6 +211,7 @@ body.page6 .contact-form { border-style: ridge; }
   font-weight: bold;
 }
 
+
 footer {
   background: #000;
   text-align: center;
@@ -195,5 +220,3 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
-
-
