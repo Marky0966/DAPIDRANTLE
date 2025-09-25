@@ -23,7 +23,7 @@ header {
   border-bottom: 0.125em solid #d4af37;
 
  
-  position: sticky;   /* laging nakikita kahit scroll */
+  position: sticky;  
   top: 0;
   z-index: 1000;
 }
@@ -40,7 +40,7 @@ header {
 nav {
   position: relative;
   display: flex;
-  justify-content: center; /* nasa gitna ang menu */
+  justify-content: center;
   align-items: center;
 }
 
@@ -122,7 +122,7 @@ body.page6 .contact-form { border-style: ridge; }
   margin-bottom: 0.9375em;
 }
 
-/* ===== BUTTONS ===== */
+
 .btn {
   display: inline-block;
   padding: 0.75em 1.25em;
@@ -220,3 +220,4 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
+
