@@ -213,7 +213,7 @@ body.page6 .contact-form { border-style: ridge; }
 }
 
 
-fawnfiuwfawf
+
 .image-float-left {
   float: left;
   width: 40%;
@@ -237,7 +237,7 @@ fawnfiuwfawf
 
 body {
   background: url("background2.jpg") center center no-repeat fixed;
-  background-size: contain; 
+  
   background-color: rgba(10, 10, 10, 0.85); 
   background-blend-mode: overlay;
   color: #f1f1f1;
@@ -289,5 +289,6 @@ footer {
     width: 100%;
   }
 }
+
 
 
