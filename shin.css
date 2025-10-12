@@ -74,11 +74,10 @@ nav ul li a.active {
 }
 
 
-.content, .about-section, .products, .cart, .checkout, .contact-form {
-  padding: 4em 3em;
-  max-width: 90em; 
+.content, .about-section, .cart, .checkout, .contact-form {
+  padding: 5em 3em;
+  max-width: 90em;
   margin: 3em auto;
-  text-align: center;
   background: rgba(20, 20, 20, 0.95);
   border: 0.25em solid #d4af37;
   border-radius: 0.625em;
@@ -95,7 +94,7 @@ body.page6 .contact-form { border-style: ridge; }
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14.375em, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(14.375em, 1fr));
   gap: 1.56em;
   padding: 3.75em 1.25em;
   max-width: 75em;
@@ -287,6 +286,7 @@ footer {
     width: 100%;
   }
 }
+
 
 
 
