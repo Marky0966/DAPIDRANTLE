@@ -242,3 +242,27 @@ footer {
 }
 
 
+body {
+  background: url("background.jpg") center center no-repeat fixed;
+  background-size: contain; 
+  background-color: rgba(10, 10, 10, 0.85); 
+  background-blend-mode: overlay;
+  color: #f1f1f1;
+}
+
+
+.content, 
+.about-section, 
+.products, 
+.cart, 
+.checkout, 
+.contact-form {
+  background: rgba(20, 20, 20, 0.92); 
+  backdrop-filter: blur(3px);
+}
+
+html, body {
+  height: 100%;
+}
+
+
