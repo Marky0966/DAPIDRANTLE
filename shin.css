@@ -13,7 +13,7 @@ body {
   background-color: #0a0a0a;
   color: #f1f1f1;
   line-height: 1.6;
-  background: url("background2.jpg") center center no-repeat fixed;
+  background: url("background3.jpg") center center no-repeat fixed;
   background-size: contain; 
   background-color: rgba(10, 10, 10, 0.85); 
   background-blend-mode: overlay;
@@ -287,6 +287,7 @@ footer {
     width: 100%;
   }
 }
+
 
 
 
