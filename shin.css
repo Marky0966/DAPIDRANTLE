@@ -34,7 +34,7 @@ header {
   position: relative;
   display: block;
   margin-left: auto;
-  margin-right: auto; /* center logo */
+  margin-right: auto;
 }
 
 nav {
@@ -106,7 +106,7 @@ body.page6 .contact-form { border-style: ridge; }
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
 
-  /* outline dotted */
+  
   outline: 3px dotted #d4af37;
   outline-offset: 10px;
 }
@@ -220,4 +220,25 @@ footer {
   color: #888;
   border-top: 0.125em solid #d4af37;
 }
+
+.image-float-left {
+  float: left;
+  width: 40%;
+  margin: 1em;
+  border-radius: 0.625em;
+}
+
+.image-float-right {
+  float: right;
+  width: 40%;
+  margin: 1em;
+  border-radius: 0.625em;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
