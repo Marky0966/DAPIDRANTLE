@@ -236,7 +236,7 @@ fawnfiuwfawf
 
 
 body {
-  background: url("background.jpg") center center no-repeat fixed;
+  background: url("background2.jpg") center center no-repeat fixed;
   background-size: contain; 
   background-color: rgba(10, 10, 10, 0.85); 
   background-blend-mode: overlay;
@@ -289,4 +289,5 @@ footer {
     width: 100%;
   }
 }
+
 
